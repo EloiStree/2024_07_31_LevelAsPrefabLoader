@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
@@ -105,5 +106,8 @@ public class LoadLevelPrefabFromResources
 
     }
 
-   
+    public static PrefabSceneGuidTagMono[] GetAllScenesPrefabReloaded()
+    {
+        return m_prefabInResources.Values.ToArray() ;
+    }
 }
