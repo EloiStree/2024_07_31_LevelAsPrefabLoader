@@ -1,7 +1,7 @@
 
 {                                                                   
-            "name": "be.eloistree.levelasprefabloaderEditor",          
-    "references": ["be.eloistree.levelasprefabloader"
+            "name": "be.elab.levelasprefabloaderEditor",          
+    "references": ["be.elab.levelasprefabloader"
 ],                                                              
     "optionalUnityReferences": [],                                  
     "includePlatforms": [                                           
